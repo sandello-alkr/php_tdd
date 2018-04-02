@@ -1,0 +1,42 @@
+{
+    "require": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "scripts": {
+        "test": "bin/phpunit tests  --color"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "preferred-install": "dist",
+        "secure-http": false
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://toran.server.traveljigsaw.com/repo/private/",
+            "options": {
+                "http": {
+                    "proxy": ""
+                }
+            }
+        },
+        {
+            "type": "composer",
+            "url": "http://toran.server.traveljigsaw.com/repo/packagist/",
+            "options": {
+                "http": {
+                    "proxy": ""
+                }
+            }
+        },
+        {
+            "packagist": false
+        }
+    ]
+}
+
