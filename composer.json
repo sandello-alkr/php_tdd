@@ -14,29 +14,6 @@
         "bin-dir": "bin",
         "preferred-install": "dist",
         "secure-http": false
-    },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://toran.server.traveljigsaw.com/repo/private/",
-            "options": {
-                "http": {
-                    "proxy": ""
-                }
-            }
-        },
-        {
-            "type": "composer",
-            "url": "http://toran.server.traveljigsaw.com/repo/packagist/",
-            "options": {
-                "http": {
-                    "proxy": ""
-                }
-            }
-        },
-        {
-            "packagist": false
-        }
-    ]
+    }
 }
 
